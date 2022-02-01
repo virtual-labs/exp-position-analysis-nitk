@@ -1,6 +1,6 @@
 ### Introduction
 
-<div  style="text-align: justify; text-indent: 50px">
+<div  style="text-align: justify;">
 
 A four bar mechanism consists of four rigid link which are linked in the form of quadrilateral by four pin joints. A link that makes complete revolution is called crank, the link opposite to the fixed link is the coupler and forth link is a lever or rocker if oscillates or another crank if rotates.
 
@@ -24,7 +24,7 @@ Figure 2: Nomenclature of four bar mechanism.
 
 **Grashoff's Law**: For a planar four bar linkage, the sum of the shortest (s) and longest (l) links cannot be greater than the sum of the remaining (p,q) links if there is to be continuous relative rotation between two members.
 
-**Inversions**:â€‹ A mechanism has been defined above as a kinematic chain in which one of the links is fixed. From the four bar mechanism, different versions of each of them can be obtained by fixing any one of the links p, q, l or s. Such different versions, which can be obtained by fixing any of the different links, are called its "Inversions". Many a time, a particular inversion of a mechanism may give rise to different mechanisms of practical utility, when the proportions of the link lengths are changed.
+**Inversions**: A mechanism has been defined above as a kinematic chain in which one of the links is fixed. From the four bar mechanism, different versions of each of them can be obtained by fixing any one of the links p, q, l or s. Such different versions, which can be obtained by fixing any of the different links, are called its "Inversions". Many a time, a particular inversion of a mechanism may give rise to different mechanisms of practical utility, when the proportions of the link lengths are changed.
 By this principle of inversion of a fourbar chain, several useful mechanisms can be obtained. Mainly there are three inversions of four bar mechanisms, which are obtained by fixing different links of the kinematic chain as shown in the figure below. They are:
 
 1. Double Crank Mechanism
