@@ -1,17 +1,15 @@
-## Procedure
+### Procedure
 
-<div  style="text-align: justify; text-indent: 50px;">
+<div style="text-align:left">
+  Click on the Simulation icon    <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation screen. 
 
-Read the value of link lengths and the input angle θ<sub>2</sub>, then use the formulae given below to calculate the value of unknowns θ<sub>3</sub>, θ<sub>4</sub> and γ 
+   ![Alt text](images/Simscreen1.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
+   ![Alt text](images/var2.png)
+
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
+
+  Click on the Rotate icon  <img src="images/rotate_clockwise.png" alt="Alt text" style="height:80px; width:80px;"> to change the direction of rotation.
 </div>
-
-
-<div style="text-align: center">
-
-   [<img src="./images/pos7.png" width="550" height="500" />](./images/pos7.png)
-
- </div>
-
-   For special cases of positioning (e.g. when two link are aligned) use simple geometry and trigonometry relations to find out the solution
-
