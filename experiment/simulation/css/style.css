@@ -1,5 +1,9 @@
-.main-container {
-  background-color: var(--clr-body-clr);
+.container {
+  background-color: var(--clr-container-clr);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
 }
 
 .title-div-container {
@@ -8,9 +12,9 @@
   background-color: var(--clr-container-clr);
   z-index: 105;
   position: relative;
-  padding: 0.5rem 0.5rem;
+  padding: 0.25rem;
+  grid-column: 1/-1;
 }
-
 .title-div {
   display: flex;
   gap: 5rem;
@@ -22,6 +26,18 @@
   border-radius: 1rem;
   z-index: 105;
   position: relative;
+}
+
+.logo-div {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+h1 {
+  flex: 0 0 1;
+  display: inline-block;
+  align-self: center;
+  margin: auto;
 }
 
 /* bolts */
@@ -62,14 +78,6 @@
   color: var(--clr-text-clr);
   text-transform: uppercase;
 }
-.container {
-  padding: 0 0 0.5rem 0.5rem;
-  display: flex;
-  flex-direction: row;
-  background-color: var(--clr-container-clr);
-
-  gap: 0.5rem;
-}
 
 /* ********************** */
 /* *******SIDEBAR******* */
@@ -83,6 +91,7 @@
   background-color: #fffcfc;
   box-shadow: 0 1rem 1rem 0 rgba(177, 176, 176, 0.855);
   padding: 1.2rem 1.6rem;
+  margin: 0.25rem;
   border-radius: 0.9rem;
   left: 0;
   cursor: pointer;
@@ -92,15 +101,9 @@
   padding: 0.8rem 0;
   width: 8rem;
 }
-.logo-div {
-  display: inline-block;
-  margin-left: 2rem;
-}
-h1 {
-  flex: 0 0 1;
-  display: inline-block;
-  align-self: center;
-  margin: auto;
+
+.logo {
+  width: 100%;
 }
 
 .logo {
@@ -135,8 +138,8 @@ h1 {
 }
 
 .icons {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   color: var(--clr-title-background);
 }
 
@@ -148,6 +151,11 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0.25rem;
+  margin-bottom: 0;
+  border-radius: 0.9rem;
 }
 
 .task-title {
@@ -174,13 +182,11 @@ h1 {
 
 .main-section {
   display: grid;
-
-  grid-template-columns: 50fr 50fr;
+  grid-template-columns: 1fr;
   gap: 0.5rem;
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  padding: 0 0.5rem 0 0;
 }
 .main__task-div {
   width: 100%;
