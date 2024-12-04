@@ -1,4 +1,3 @@
-
 :root {
   --clr-title-background: #089b93;
   --clr-title-background2: rgb(8, 195, 185);
@@ -22,6 +21,7 @@ html {
   font-size: 62.5%;
   font-family: "Nunito", sans-serif;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -39,16 +39,14 @@ h3 {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
 ::-moz-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
-
-
 
 /* select menu */
 .ui-selectmenu-button {
@@ -58,14 +56,13 @@ h3 {
 /*majorly modified here*/
 .ui-spinner {
   width: 12rem;
-    text-align: center;
-    display: inline-block;
-    overflow: hidden;
-    padding: 0;
-    vertical-align: middle;
-    border: 0 none;
-    margin-left: -17rem;
-  
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: middle;
+  border: 0 none;
+  margin-left: -17rem;
 }
 .ui-spinner-input {
   width: inherit;
@@ -144,7 +141,6 @@ h3 {
   background-position: 0 0;
 }
 .ui-slider .ui-slider-range {
-
   background: #02498036;
   position: absolute;
   z-index: 1;
@@ -153,7 +149,6 @@ h3 {
   border: 0;
   background-position: 0 0;
 }
-
 
 .ui-slider-horizontal {
   height: 5px;

@@ -9,72 +9,10 @@ em:current font size
 /* Below 1344px (Smaller Desktops) */
 /* **************************** */
 
-@media (min-width: 1200px) {
-  /* div#commentboxleft {
-    position: absolute;
-    left: 9px;
-    top: 403px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
-
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  } */
-
-  /* #canvas-container {
-    margin-left: 178px;
-    height: 466px;
-  } */
-
-  /* .datatable {
-    width: 140px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  #datatable1 {
-    left: 206px;
-    top: 233px;
-  }
-  #datatable1 p {
-    font-size: 14px;
-  }
-
-  #datatable2 {
-    left: 398px;
-    top: 233px;
-  }
-  #datatable2 p {
-    font-size: 13px;
-  }
-  #titleincanvas {
-    position: absolute;
-    left: 292px;
-    top: 60px;
-  }
-  div#newComment {
-    top: 8px;
-  } */
-
-  #variables {
-    width: 200%;
+@media (max-width: 1200px) {
+  body {
+    max-width: 120rem;
+    margin: 0 auto;
   }
 }
 
@@ -85,7 +23,7 @@ em:current font size
 @media (max-width: 75em) {
   body {
     width: 100%;
-    margin: unset;
+    margin: 0;
   }
   .title-div h1 {
     font-size: 2.5rem;
@@ -120,65 +58,9 @@ em:current font size
     width: 3rem;
     height: 2.8rem;
   }
-  /* div#commentboxleft {
-    position: absolute;
-    left: 8px;
-    top: 410px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
 
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  } */
-
-  /* #canvas-container {
-    margin-left: 265px;
-    height: 476px;
-  }
-
-  .datatable {
-    width: 140px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  #datatable1 {
-    left: 283px;
-    top: 280px;
-  }
-
-  #datatable2 {
-    left: 550px;
-    top: 280px;
-  }
-
-  #titleincanvas {
-    position: absolute;
-    left: 369px;
-    top: 90px;
-  } */
   .tool-list span {
     font-size: 1.2rem;
-  }
-  #variables {
-    width: 200%;
   }
 }
 
@@ -214,6 +96,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -259,28 +145,6 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  /* div#commentboxleft {
-    position: absolute;
-    left: 18px;
-    top: 398px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
-
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  }
 
   #canvas-container {
     margin-left: 10px;
@@ -313,17 +177,9 @@ em:current font size
   #datatable2 p {
     margin-bottom: 5px;
   }
-  #titleincanvas {
-    position: absolute;
-    left: 326px;
-    top: 90px;
-  } */
+
   p {
     margin-bottom: 70px;
-  }
-
-  #variables {
-    width: 100%;
   }
 }
 
@@ -344,55 +200,7 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  /* div#commentboxleft {
-    position: absolute;
-    left: 18px;
-    top: 407px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
 
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  }
-  div#newComment {
-    top: 5px;
-  }
-  .datatable {
-    width: 140px;
-    font-size: 1.6rem;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  #datatable1 {
-    left: 137px;
-    top: 235px;
-  }
-
-  #datatable2 {
-    left: 494px;
-    top: 235px;
-  } */
-
-  #variables {
-    width: 100%;
-  }
   .tool-list span {
     font-size: 1.6rem;
   }
@@ -435,109 +243,12 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  /* div#commentboxleft {
-    position: absolute;
-    left: 18px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
-
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  }
-
-  .datatable {
-    width: 140px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  div#commentboxleft {
-    position: absolute;
-    left: 10px;
-    top: 410px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
-
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  }
-
-  #canvas-container {
-    margin-left: 0;
-    height: 442px;
-  }
-
-  .datatable {
-    width: 140px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  #datatable1 {
-    left: 79px;
-    top: 232px;
-  }
-
-  #datatable2 {
-    left: 338px;
-    top: 232px;
-  }
-
-  #titleincanvas {
-    position: absolute;
-    left: 241px;
-    top: 76px;
-  } */
-
-  #variables {
-    width: 100%;
-  }
 }
 
 /* **************************** */
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .container {
-    /* padding: 0.5rem; */
-    gap: 1rem;
-  }
-
   .title-div h1 {
     padding: 0.2rem;
 
@@ -589,70 +300,6 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
-  /* div#commentboxleft {
-    position: absolute;
-    left: 54px;
-    top: 64px;
-    height: 65px;
-    width: 285px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: "Nunito", sans-serif;
-  }
-
-  div#commentboxright {
-    position: absolute;
-    left: 305px;
-    top: 501px;
-    height: 65px;
-    width: 285px;
-    text-align: right;
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-  }
-  .datatable {
-    width: 140px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .datatable table {
-    border: 1px solid #000011;
-    border-collapse: collapse;
-    width: 120px;
-  }
-  #datatable1 {
-    left: 25px;
-    top: 272px;
-  }
-
-  #datatable1 p {
-    margin-bottom: 5px;
-  }
-  #datatable2 {
-    left: 150px;
-    top: 272px;
-    margin-right: 5px;
-  }
-  #datatable2 p {
-    margin-bottom: 5px;
-  }
-  #titleincanvas {
-    position: absolute;
-    left: 82px;
-    top: 40px;
-  }
-
-  #canvas-container {
-    height: 493px;
-  }
-  #variables {
-    width: 100%;
-  }
-  div#newComment {
-    top: 12px;
-  } */
 
   .main__task-div footer p {
     height: 1px;
